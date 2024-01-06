@@ -1,0 +1,12 @@
+Manual Testing
+SQL
+core Java
+Selenium 
+TestNG 
+CI/CD Pipeline 
+Github 
+Maven/Jenkins
+
+======================================================
+Manual API [Postman]
+
