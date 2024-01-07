@@ -1,0 +1,29 @@
+ Types of Market orders
+ Limit orders
+ Stop loss
+ Market orders
+ Derivatives
+ Primary Market
+ Secondary Market
+ IPO
+ What's clean price and dirty price
+ Types of derivatives and their differences
+ Futures and Forwards
+ Interest Swaps
+ What are debt instruments
+ Equities
+ Mutual funds
+ What's NAV (Net asset Value)
+ What's Face Value, Cut off price, issue price
+ What's book building process
+ What's Money Market? And what's capital markets
+ Medium knowledge in Capital Markets
+ Equities
+ Derivatives
+ Fixed in come
+ Mutual funds
+ This is enough for domain
+ She is lacking in testing concepts
+ Capital Markets
+ SQL
+ This is the pointers

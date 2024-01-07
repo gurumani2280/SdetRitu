@@ -1,0 +1,73 @@
+Explicit Wait 
+
+WebdriverWait wait = new WebdriverWait(driver, 30);
+wait.untill(ExpectedConditions.visibilityElemntonvisible(located(By.xpath("*******");
+
+
+implicit Wait 
+
+driver.manage().timeout().implicitwait(10, TimeoutUnit.Seconds);
+
+================================================================================
+set<String> window = driver.getwindowhandles();
+Itretor<String> it = window.itretor();
+String parentID = it.next();
+String ChildID= it.next();
+String ChildID2= it.next();
+
+driver.switchto().window(childID2);
+driver.findElement(By.Xpath("======").click();
+==================================
+
+List<WenElement> li = driver.findElement(By.Xpath("=======");
+Select sel = new Select(li);
+sel.SelectByVisibleText("Pwd123");
+sel.SelectByIndex(4);
+==================================================
+isSelects we can check
+
+how we pass parametre in Test Ng 
+
+making it falied due timeout exception 
+
+@test(timeout = 1000);
+
+================================================================
+
+febonacci series useing recursion 
+
+PSVM[arg]{
+int n1 =0,n2=1,n3,i, count=10;
+System.out.Print(n1+""+n2);
+
+for(i=2 ;i<count;++i){
+n3= n1+n2;
+system.out.print(""+n3);
+n1=n2;
+n2=n3;
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

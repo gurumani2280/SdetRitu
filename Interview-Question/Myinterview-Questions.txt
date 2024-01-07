@@ -1,0 +1,111 @@
+
+Interview Questions for QA Automation [5 to 9 Years in 2023]
+=======================================================================================================================================================
+
+Teksystem [28th july] 
+
+-> if you have the emp table in database with column empid empname empage empsal & same table with the same column in excel or csv how will you 
+   validate the data  apple to apple comparision by automation script .
+-> What is Throw & thorws in term of exception handling.
+-> What is the difference between Abstract Class & Interface .
+-> What Singlton class & how it get implemented ?
+-> WAP to shorting the Array accending to decending arr{2,3,4,5,1,7} o/p should be {1,2,3,4,5,7}.
+-> How you will upload & download a file using Selenium?
+-> What is the Main difference of static & non static varibales or Memmber?
+
+========================================================================================================================================================
+Coforge [29th july] :
+
+-> Find the String occurenace for each character String str = "JAVA".
+-> Explain MAven Life Cycle .
+-> Windows Handling programme .
+-> What is pull push & insert in Verion Control.
+-> Explain Implementation of Encapsulation in POM model into the Project.
+-> Star Prniting Program
+    *
+    **
+    ***
+    ****
+    *****
+-> Explain Methodoverloading & Methodoverridding through Programme.
+-> One major difference between static member(Class Member) & non Static Variable (instance Variable)
+-> when we go for Static & non Static memebers? (if we have non static memebers then we need static variable?)
+================================================================================================================================================================
+
+Amadeus [1st August]
+
+-> What is poling Time in Selenium?
+-> What is Web Element in WebDriver ?
+-> Which is the Super Class in WebDriver ? (Search Class)
+-> In this (https://www.aircanada.com/ca/en/aco/home.html) WebSite write the X-PATH for all the Suggestion when input is Canada.
+-> What are the Types of Wait in Selenium?
+-> Write all the Syntax of Wait.
+-> What are the Execeptions in Selenium?
+-> What is the hierarchy under XML tag in File?
+-> Write the Tag for Below in XML file:
+             Test Suite
+             Test class
+             Test Name 
+             Before Method
+             AFter Method
+-> What is POM Model in Framework?
+-> WAP for 2nd Highest Element in the Given Array arr={2,5,4,7,9,8} .
+-> What is the Trivarse between the X-Path?
+-> Explain Framework Componenet ?
+=======================================================================================================================================================================
+Amadeus (ITC Infotech) [1st August]
+
+-> Write A Programme  when i/p is given int[] arr = {5,4,5,2,3,1,5,63,5,1}  o/p should come like  this  o/p =  [4,2,3,1,63,1,5,5,5,5] .
+------------------------------------------------------------------------------------------------------------------------------------------
+-> class Base {
+    final public void show() {
+       System.out.println("Base::show() called");
+    }
+}
+  
+class Derived extends Base {
+    public void show() {
+       System.out.println("Derived::show() called");
+    }
+}
+  
+class Main {
+    public static void main(String[] args) {
+        Base b = new Derived();;
+        b.show();
+    }
+}
+
+what will be the o/p of this programe?
+---------------------------------------------------------------------------------
+-> What is DataProvider?
+-> What is StringBuffer?
+-> Which are the tag present in XML file ?
+-> How you include the Test Cases under XML file ?
+-> Which are the oops Concept you have implemented in your Famework ?
+================================================================================================================================================
+Cap G : [5th Auagust]
+
+-> No of Occurance of the String 
+-> Reverse The String
+-> give input as "AAABEECCEA" & the O/p should get "A3B1E2C2E1A1".
+-> Explain Framework of your Project.
+-> Explain work & roles Activity under Agile Metholody.
+-> What are the challanges you face under Automation Testing?
+====================================================================================================================================
+Harman 9th Auagust:
+
+-> verify the gamil by java programme.
+-> @test,@beforeclass,@beforeMethod if 5 test case are there hom many no of time it will run each of them?
+-> What is the difference between instance variable & class variable?
+-> Explain your famework ?
+-> Find the X-path under flipkart CEO , after refreshing the page it should get work.
+-> Write a programe to navigate into the Amazon tab if it is present in the Multiple Tab.
+-> find all the Links of Iphone 14 add of the flipkart Page & the header of all the add should get display.
+=============================================================================================================================================
+
+
+
+
+
+

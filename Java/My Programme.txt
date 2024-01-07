@@ -1,0 +1,12 @@
+-> if you have the emp table in database with column empid empname empage empsal & same table with the same column in excel or csv how                       will you validate the data  apple to apple comparision by automation script .
+-> WAP to shorting the Array accending to decending arr{2,3,4,5,1,7} o/p should be {1,2,3,4,5,7}.
+-> Find the String occurenace for each character String str = "JAVA".
+-> In this (https://www.aircanada.com/ca/en/aco/home.html) WebSite write the X-PATH for all the Suggestion when input is Canada.
+-> WAP for 2nd Highest Element in the Given Array arr={2,5,4,7,9,8}.
+-> Write A Programme  when i/p is given int[] arr = {5,4,5,2,3,1,5,63,5,1}  o/p should come like  this  o/p =  [4,2,3,1,63,1,5,5,5,5]
+-> WAP in addition of  of two value which give the result as 10 in the given arry = {2,6,8,5,4,5}   like [2+8,6+4,5+5] , values once
+   paried should get repeat.
+-> WAP in which give input as "AAABEECCEA" & the O/p should get "A3B1E2C2E1A1".
+-> find all the Links of Iphone 14 add of the flipkart Page & the header of all the add should get display.
+-> Remove the duplication of char in the give String String str = "Jaaavvvaa";
+-> Find the X-path under flipkart CEO , after refreshing the page it should get work.
