@@ -1,0 +1,5 @@
+steps for rest assured
+1. create simple maven project
+2. add rest-assured dependency and testng dependency
+
+
