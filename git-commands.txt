@@ -1,0 +1,31 @@
+=======================================================================================
+for 1st time adding the user into folder of github:
+---------------------------------------------------
+
+
+git config --global user.email "rrkj1995@gmail.com"
+
+
+git config --global user.name "Rituraj"
+
+
+git push --set-upstream origin main
+
+
+
+=================================================================================================
+=> for adding your cofe to github
+
+git add file name
+git add * 
+git commit -m "msg"
+git push
+
+================================================
+
+for getting the changes of code 
+
+git status 
+git pull
+=======================================================
+
