@@ -6,7 +6,12 @@ Teksystem [28th july]
 
 -> if you have the emp table in database with column empid empname empage empsal & same table with the same column in excel or csv how will you 
    validate the data  apple to apple comparision by automation script .
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 -> What is Throw & thorws in term of exception handling.
+
+   Both throw and throws are concepts of exception handling in Java. The throws keyword is used to declare which exceptions can be thrown from a method, 
+   while the throw keyword is used to  explicitly throw an exception within a method or block of code
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 -> What is the difference between Abstract Class & Interface .
 -> What Singlton class & how it get implemented ?
 -> WAP to shorting the Array accending to decending arr{2,3,4,5,1,7} o/p should be {1,2,3,4,5,7}.
