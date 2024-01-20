@@ -6,4 +6,19 @@ https://jsonpathfinder.com/
 
 https://jsonpath.com/
 
+3. jackson Databind  -- pojo - plain old java object - to request body -- serialization
+		response json to pojo - deserialization
+
+Exception in thread "main" java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+
+java object (pojo) to request body(Rest Assured) -- serialization
+create pojo class - create all private attribute for all json request body
+
+
+response json to pojo - deserialization
+
+https://copyprogramming.com/howto/java-com-fasterxml-jackson-databind-exc-unrecognizedpropertyexception-unrecognized-field-not-marked-as-ignorable
+
+4. add testng dependecy
+
 
