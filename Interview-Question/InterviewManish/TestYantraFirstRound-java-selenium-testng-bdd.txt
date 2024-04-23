@@ -1,0 +1,47 @@
+Q1- tell difference between static and instance variable
+
+Q2- what  is constructor? how constructor is different from method?
+
+Q3- explain type of inheritance?
+
+Q4- what keyword to use while declaring class > if we do not want any subclass for the class
+final keyword, e.g. String class
+
+Q5- can we apply protected  or private access level to class? No
+
+Q6-if we don't want to create any object of any class ? how can we achieve this ? or keyword will be used?
+abstract keywors - we can create abstract class for which we cannot create object
+
+Q7-what is marker interface - ? give some example
+RandomAccess marker interface used by ArrayList  which makes accessing element very fast 
+
+Q8- when we use Arraylist collection? for which usecase or scenatios ArrayList Collection is most suitable?
+
+Q9- rate urself in collection? the which set an be used if we have maintain insertion order
+
+Q10-tell difference between comparable and comparator
+
+Q11- How many types of exception we have (checked and unchecked)? give some example of each
+what is the super class of all unchecked exception -- like divide by zero , Arithmetic exception - RuntimeException
+
+Q12-whic execption will occur at compile?
+both checked and uncheked exception occur at run time only, 
+only thing is checked exception compiler can detect and raised compile time error if try catch or throws keyword is not used
+
+Q13- what is difference between throw and throws keysword in java exception?
+
+Q14- How to create user defined exeception ?
+
+Q15-what are the difference between xpath and css selector
+
+Q16- How to take screenshot in Selenium? and how to take screenshot at failure of testng test?
+
+Q17-what are the methods avaiable in testng ITestListener interface
+
+Q18-how to run testng xml file using maven profile?
+
+Q19- what is background in BDD cucumber?
+
+Q20-what is @before and @after in BDD cucumber?
+
+Q21- coding question for finding anagram of two String
