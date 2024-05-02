@@ -1,0 +1,40 @@
+Q1
+input - java
+output - ajav  (reverse or swap alternate letters)
+
+Q2 
+input - automation
+output - umin  (print only unique letters - use any collection you want)
+import java.util.map.entry
+
+Q3
+ b = "automation".substring(5, 7)
+ c = b.charAt(1)
+ b+c = ?
+
+Q4. write down the xpath for amazon.com to fetch the header 
+them use following sibling and preceding sibling
+
+ 
+Q5
+navigate to a url
+find all links
+get all the linktext
+and store likntext staring with p and unique
+
+driver.get(url);
+List<WebElement> allLinks =driver.findElements(By.xPath("//a"));
+List<String> allLinkTestP= new ArrayList<String>();
+for(int i =0 ; i < allLinks.size(); i++) {
+   String text = allLinks.get(i);
+   if (text.startsWith("p") && !allLinkTestP.contains(text) ){
+allLinkTestP.add(text)
+   }
+}
+System.out.println(allLinkTestP)
+
+then rest assured code
+
+Q6 he wanted to ask question on RestAssured
+
+ 

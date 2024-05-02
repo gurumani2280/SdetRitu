@@ -1,0 +1,14 @@
+Q 1 find the maximum difference of two element, where large number appear after smaller number
+find the difference between largest and smallet number if smallest index is before the largest index , otherwise zero?
+input [2, 1, 7 , 8,4 ]
+output = 8-1 = 7
+ input [9, 8, 7, 4, 2]
+output = 0
+
+
+Q 2 balance bracket - if the seqence of string contains bracket is well nested
+print number of balanced bracket pair if input string is balaced else print -1
+()()   2
+(()   -1
+
+

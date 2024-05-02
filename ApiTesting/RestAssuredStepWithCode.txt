@@ -1,0 +1,70 @@
+POST example
+
+		RestAssured.given().log().all()
+		.contentType(ContentType.JSON)
+		.body("{\r\n"
+				+ "\"name\":\"Learn API Automation with Java\",\r\n"
+				+ "\"isbn\":\"bc6de\",\r\n"
+				+ "\"aisle\":\"227471\",\r\n"
+				+ "\"author\":\"Ritu1Raj\"\r\n"
+				+ "}")
+		.when().post("http://216.10.245.166/Library/Addbook.php")
+		.then().log().all().statusCode(200)
+		.header("Server", "Apache")
+		.statusLine("HTTP/1.1 200 OK")
+		.body(
+			  "Msg", Matchers.equalTo("Book Already Exists"),
+			  "ID", Matchers.equalTo("bc6de227471")
+				);
+
+Get Example (Imp - .extract().path("[0].author");)
+
+		String authorName =RestAssured.given().log().all()
+				.queryParam("ID", "wd221qs221")
+				.when().get("http://216.10.245.166/Library/GetBook.php")
+			.then().log().all()
+				.statusCode(200)
+				.body("[0].author", Matchers.equalTo("Ritu1Raj"))
+			.extract().path("[0].author");
+		
+		System.out.println("authorName "+ authorName);
+
+Delete Example:-
+		RestAssured.given().log().all()
+		.contentType(ContentType.JSON)
+		.body("{\"ID\":\"bc6de227471\"}")
+		.when().delete("http://216.10.245.166/Library/DeleteBook.php")
+		.then().log().all()
+		.body("msg", Matchers.equalTo("book is successfully deleted"));
+
+
+Post and Get Example (IMP == response.extract().path("ID");)
+
+	System.out.println("Main Begin");
+	String name="Api Testing1", isbn ="wd221",  aisle ="1221",  authorName="Bhagat1";
+	String iD = RestAssured.given().log().all()
+		.contentType(ContentType.JSON)
+		.body(Utility.CreatePayload( name,  isbn,  aisle,  authorName))
+		.when().post("http://216.10.245.166/Library/Addbook.php")
+		.then().log().all().statusCode(200)
+		.extract().path("ID");
+	System.out.println("iD "+ iD);
+	Thread.sleep(6000);
+	
+	String author = RestAssured.given().log().all()
+		.queryParam("ID", iD)
+		.when().get("http://216.10.245.166/Library/GetBook.php")
+		.then().log().all()
+		.statusCode(200)
+		.body("[0].author", Matchers.equalTo(authorName),
+				"[0].book_name", Matchers.equalTo(name))
+		.extract().path("[0].author");
+
+	System.out.println("author "+ author);
+		
+		RestAssured.given().log().all()
+		.contentType(ContentType.JSON)
+		.body(Utility.deletePayload(iD))
+		.when().delete("http://216.10.245.166/Library/DeleteBook.php")
+		.then().log().all()
+		.body("msg", Matchers.equalTo("book is successfully deleted"));

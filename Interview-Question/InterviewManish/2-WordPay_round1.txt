@@ -1,0 +1,5 @@
+Q1 what is difference between driver.close() and driver.quit()?
+
+Q2. How many types of xpath are there? why absolute xpath is not used?
+
+Q3. how many select class method to select from the drop down? when select by visible text will not work?

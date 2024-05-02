@@ -1,0 +1,161 @@
+ CreateBook book = new CreateBook();
+		book.setName("Learn Rest API");
+		book.setIsbn("bc6ed");
+		book.setAisle("2311");
+		book.setAuthor("NAMO");
+		System.out.println("main begin");
+		
+		Response resp = RestAssured.given().log().all()
+					.contentType(ContentType.JSON)
+					.body(book)
+					.when()
+					.post("http://216.10.245.166/Library/Addbook.php")
+					.then().log().all()
+					.assertThat().statusCode(200)
+					.extract().response();
+		
+		
+		String createRespMsg = resp.path("Msg");
+		String createRespID = resp.path("ID");
+		
+		System.out.println("createRespMsg " + createRespMsg);
+		System.out.println("createRespID " + createRespID);
+		
+		
+GetBook[] getBook= RestAssured.given().log().all()
+		.queryParam("ID", createRespID)
+		.when().get("http://216.10.245.166/Library/GetBook.php")
+		.then().log().all()
+		.statusCode(200).extract().response().as(GetBook[].class);
+		
+		System.out.println(getBook[0].getAisle());
+		System.out.println(getBook[0].getAuthor());
+
+
+
+CreateBook book = new CreateBook();
+		book.setName("Learn Rest API");
+		book.setIsbn("bc7ed");
+		book.setAisle("2411");
+		book.setAuthor("NAMO");
+		System.out.println("main begin");
+		
+		CreateBookResponse createBookResponse = RestAssured.given().log().all()
+					.contentType(ContentType.JSON)
+					.body(book) // Serialization
+					.when()
+					.post("http://216.10.245.166/Library/Addbook.php")
+					.then().log().all()
+					.assertThat().statusCode(200)
+					.extract().response().as(CreateBookResponse.class);// deserialization
+		
+		//https://copyprogramming.com/howto/java-com-fasterxml-jackson-databind-exc-unrecognizedpropertyexception-unrecognized-field-not-marked-as-ignorable
+		
+		
+		System.out.println(createBookResponse.getiD());
+		System.out.println(createBookResponse.getMsg());
+
+
+
+=============POJO=============
+CreateBookResponse.class
+
+public class CreateBookResponse {
+	
+	@JsonProperty("Msg")
+	private String msg;
+	
+	@JsonProperty("ID")
+	private String iD;
+	/getter and Setters
+	public String getMsg() {
+		return msg;
+	}
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+	public String getiD() {
+		return iD;
+	}
+	public void setiD(String iD) {
+		this.iD = iD;
+	}	
+
+}
+
+
+GetBook[].class
+public class GetBook {
+	
+	private String book_name;
+	private String isbn;
+	private String aisle;
+	private String author;
+	public String getBook_name() {
+		return book_name;
+	}
+	// getters and setters
+	public void setBook_name(String book_name) {
+		this.book_name = book_name;
+	}
+	public String getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	public String getAisle() {
+		return aisle;
+	}
+	public void setAisle(String aisle) {
+		this.aisle = aisle;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+}
+
+
+
+public class CreateBook {
+	
+	private String name;
+	private String isbn;
+	private String aisle;
+	private String author;
+
+	// getters and setters
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	public String getAisle() {
+		return aisle;
+	}
+	public void setAisle(String aisle) {
+		this.aisle = aisle;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+}
+
+
+
+

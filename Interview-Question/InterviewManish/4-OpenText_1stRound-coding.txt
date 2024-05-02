@@ -1,0 +1,132 @@
+
+Q1. brief about yourself?
+
+Q2. whats the framework u are working?
+
+Q3. coding question?
+	String s = "ABC1234!@#$%abcdef";
+    /*
+    char count = 9
+    int count = 4
+    special char count = 5
+    */
+	Character.isAlphabetic(chars[i])
+	Character.isDigit(chars[i])
+
+Q4. for Automation from where you are getting /fetching data
+	proerties file , excel file
+Q5. any annotation you are using like framework?
+	testng data provider
+	
+Q6. can you write a code - to fetch data from properties file and use data provider
+@Test(dataProvider = "data1")
+	public void test1(String datas1, String datas2)
+	{
+		System.out.println("test " + datas1 + datas2);
+	}
+	
+	@DataProvider
+	public Object[][] data1(){
+		//File.pathSeparator
+		File file = new File("./Data/ExtraFile.properties");
+		Properties prop = new Properties();
+		FileInputStream fis;
+		try {
+			fis = new FileInputStream(file);
+			
+			prop.load(fis);
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String url = (String) prop.get("url");
+		String user = (String) prop.get("username");
+		String pass = (String) prop.get("password");
+		System.out.println(url + user + pass);
+		String[][] data= {{"testd1", "testd2"}, {user, pass}};
+		return data;
+	}
+
+Q7 . what is singelton ? how to achieve singleton in java
+
+Q8.  go to the url https://www.washingtonpost.com/, click sign in  and verify singin in with amazon , facebook, goggle 
+	and use single ton approach
+public WebDriver driver;
+	
+	public  WebDriver getDriver() {
+		if(driver == null) {
+			driver = new ChromeDriver();
+			
+		} 
+		return driver;
+	}
+	
+	@Test
+	public void testSingInPage() {
+		WebDriver driver = getDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://www.washingtonpost.com/");
+		driver.findElement(By.linkText("Sign in")).click();
+		//driver.findElement(By.xpath("//span[text()='Continue with Amazon']")).isDisplayed();
+//		driver.findElement(By.xpath("//span[text()='Continue with Facebook']")).isDisplayed();
+//		driver.findElement(By.xpath("//span[text()='Continue with Google']")).isDisplayed();
+//		driver.findElement(By.xpath("//span[text()='Continue with Apple']")).isDisplayed();
+		String[] allAuthTexts = {"Continue with Amazon","Continue with Facebook", "Continue with Google", "Continue with Apple" };
+		List<WebElement> allAuths =driver.findElements(By.xpath("//h1[text()='Sign in']/../button//span"));
+		SoftAssert sa = new SoftAssert();
+		for(int i = 0; i < allAuths.size(); i++) {
+			String actualText = allAuths.get(i).getText();
+			String expectedTest = allAuthTexts[i];
+			sa.assertEquals(actualText, expectedTest);
+			
+		}
+		System.out.println("login page displayed");
+		driver.quit();
+		
+	}
+
+
+Q9. use relative locator or xpath insuch a way that all four should be indentified with one xpath istself
+
+Q10. explain how ,driver is a single instance - 
+
+Q11. you worked in linux system ? how to get the admin priviledges? how to run some copy or mkdir command using admin priviledges?
+
+Q12. we are using files like excel and properties ? how do you ensure (file path we entered)works in linux an windows as well
+
+Q13.  you want to extract file like zip file -- how to unzip ?
+
+Q14. how to automate capctha in selenium?
+
+Q15. some web abb, a flash message is there ? how to validate those validate those flash message
+
+Q16. How to copy files and folder from one machine to another machine
+scp command 
+
+Q17 have you worked with docker? can you tell some commands used in docker?
+Q18 how to get the docker container id?
+
+Q19. how you are using jenkins for ci cd?
+
+Q20. in shell script we have to find some pid and kill the pid
+
+Q21. while creating framework? what all java concepts code will used?
+
+Q22. what is encapsulation?
+
+Q23. how do a triage the bug? like a bug  but dev is telling not a bug?
+
+
+Q24 . in Jenkins we want to add some node ? upstream and downstream job in jenkins?
+
+
+
+
+ 
+
+
+
+
+
