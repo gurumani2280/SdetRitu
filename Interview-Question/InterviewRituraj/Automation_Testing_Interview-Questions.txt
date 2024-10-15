@@ -1,0 +1,355 @@
+Automation(JAVA & SELENIUM) Testing Interview Questions:
+====================================================================================================
+String & Array based coding in Java :
+
+=>  WAP input = "Hello World", Output = "World Hello".
+=>  WAP input = "12hello23world output = 35 // 12+23 =35
+=>  WAP input = "12hello23world output = // 1+ 2 +2+3 = 8
+=>  WAP input = "aabbbcccc" output =a2b3c4.
+=>  WAP input = "a2b3c4" output = aabbcccc
+=>  WAP input1 = "aceg' Input2 = "bdfh' output = abcdefg
+=>  WAP input = "I am not A String output = g ni rts AnotmaI
+=>  WAP a[] ={1,3,5,7,9}; b[] ={2,4,6,8}; output = c[] = {1,2,3,4,5,6,7,8,9}.
+=>  WAP input1 = "abcefc" input2 = "decha" output = aec (repeated Characters)
+=>  WAP input1 = "abcefc" input2 = "decha" output = bfdh (non-repeated Characters)  
+=====================================================================================================
+Logical Coding in Java :
+
+=> Array largest and smallest element
+=> Combinations of characters in a string
+=> Count chacater occurence in a string
+=> Count non occurence of characters in a string
+=> Find duplicate words in a string
+=> Find factorial of a number 
+=> Fibonacci 
+=> Find duplicate characters in a string
+=> Frequency of characters
+=> Integer palindrome
+=> Find prime number or not
+=> Remove duplicates in a string
+=> Reverse a string without using stringbuilder class
+=> Reverse words in a string 
+=> Find the strins is palindrome or not
+=> Interchange two strings
+=> Largest and smallest element in array
+--------------------------------------------------------------------------------------------------------------
+Question 1: Write a Java Program to reverse a String.
+Question 2:  Write a Java Program to swap two given Strings
+Question 3: Write a Java Program to print the Fibonacci Series.
+Question 4: Write a Java Program to check if a number is Armstrong number or not.
+Question 5: Write a Java Program to print the sum of digits of a given integer.
+Question 6: Write a Java Program to check if a number is Prime or not.
+Question 7:  Write a Java Program to count the number of characters in a given String.
+Question 8: Write a Java Program to find the duplicates of a given String.
+Question 9: Write a Java Program for swapping of 2 numbers.
+Question 10: Write a Java Program to reverse an array?
+Question 11: Write a Java Program to get the count of Capitalized words in a String.
+Question 12: Write a Java Program to find the longest consecutive occurrence of integers in a given array.
+Question 13: Write a Java Program to generate Output "aabbbcccc" with the input "a2b3c4"
+Question 14: Write a Java Program to print the product of an array except self?
+Question 15: Write a Java Program to reverse a number using Stack.
+Question 16:  Write a Java Program to print the second largest number in a given array.
+Question 17: Write a Java Program to print the first non repeating character in a given String.
+Question 18: Write a Java Program to print the maximum consecutive ones in a given array.
+Question 19: Write a Java Program to print the first and last position of a number in a given array.
+Question 20: Write a Java Program to print numbers 1 to 100 without using any loop(for/while/do-while).
+Question 21: Write a Java Program to shift all zeros on the right.
+Question 22: Write a Java Program to remove the duplicates from an array.
+Question 23: Write a Java Program to iterate through the HashMap.
+Question 24: Write a Java Program to convert HashMap to ArrayList.
+Question 25: Write a Java Program to print the missing number in a given Array.
+=========================================================================================================
+-> if you have the emp table in database with column empid empname empage empsal & same table with the same column in excel or csv how will you validate the data  apple to apple comparision by automation script .
+-> WAP to shorting the Array accending to decending arr{2,3,4,5,1,7} o/p should be {1,2,3,4,5,7}.
+-> Find the String occurenace for each character String str = "JAVA".
+-> In this (https://www.aircanada.com/ca/en/aco/home.html) WebSite write the X-PATH for all the Suggestion when input is Canada.
+-> WAP for 2nd Highest Element in the Given Array arr={2,5,4,7,9,8}.
+-> Write A Programme  when i/p is given int[] arr = {5,4,5,2,3,1,5,63,5,1}  o/p should come like  this  o/p =  [4,2,3,1,63,1,5,5,5,5]
+-> WAP in addition of  of two value which give the result as 10 in the given arry = {2,6,8,5,4,5}   like [2+8,6+4,5+5] , values once
+   paried should get repeat.
+-> WAP in which give input as "AAABEECCEA" & the O/p should get "A3B1E2C2E1A1".
+-> find all the Links of Iphone 14 add of the flipkart Page & the header of all the add should get display.
+-> Remove the duplication of char in the give String String str = "Jaaavvvaa";
+-> Find the X-path under flipkart CEO , after refreshing the page it should get work.
+==============================================================================================================
+Teksystem [28th july] 
+
+-> if you have the emp table in database with column empid empname empage empsal & same table with the same column in excel or csv how will you 
+   validate the data  apple to apple comparision by automation script .
+-> What is Throw & thorws in term of exception handling.
+-> What is the difference between Abstract Class & Interface .
+-> What Singlton class & how it get implemented ?
+-> WAP to shorting the Array accending to decending arr{2,3,4,5,1,7} o/p should be {1,2,3,4,5,7}.
+-> How you will upload & download a file using Selenium?
+-> What is the Main difference of static & non static varibales or Memmber?
+============================================================================================================
+Coforge [29th july] :
+
+-> Find the String occurenace for each character String str = "JAVA".
+-> Explain MAven Life Cycle .
+-> Windows Handling programme .
+-> What is pull push & insert in Verion Control.
+-> Explain Implementation of Encapsulation in POM model into the Project.
+-> Star Prniting Program
+    *
+    **
+    ***
+    ****
+    *****
+-> Explain Methodoverloading & Methodoverridding through Programme.
+-> One major difference between static member(Class Member) & non Static Variable (instance Variable)
+-> when we go for Static & non Static memebers? (if we have non static memebers then we need static variable?)
+===============================================================================================================
+Amadeus (ITC Infotech) [1st August]
+
+-> Write A Programme  when i/p is given int[] arr = {5,4,5,2,3,1,5,63,5,1}  o/p should come like  this  o/p =  [4,2,3,1,63,1,5,5,5,5] .
+------------------------------------------------------------------------------------------------------------------------------------------
+-> class Base {
+    final public void show() {
+       System.out.println("Base::show() called");
+    }
+}
+  
+class Derived extends Base {
+    public void show() {
+       System.out.println("Derived::show() called");
+    }
+}
+  
+class Main {
+    public static void main(String[] args) {
+        Base b = new Derived();;
+        b.show();
+    }
+}
+
+-> what will be the o/p of this programe?
+
+-> What is DataProvider?
+-> What is StringBuffer?
+-> Which are the tag present in XML file ?
+-> How you include the Test Cases under XML file ?
+-> Which are the oops Concept you have implemented in your Famework ?
+-------------------------------------------------------------------------------------------------------
+Cap G : [5th Auagust]
+
+-> No of Occurance of the String 
+-> Reverse The String
+-> give input as "AAABEECCEA" & the O/p should get "A3B1E2C2E1A1".
+-> Explain Framework of your Project.
+-> Explain work & roles Activity under Agile Metholody.
+-> What are the challanges you face under Automation Testing?
+----------------------------------------------------------------------------------------------------------
+Harman 9th Auagust:
+
+-> verify the gamil by java programme.
+-> @test,@beforeclass,@beforeMethod if 5 test case are there hom many no of time it will run each of them?
+-> What is the difference between instance variable & class variable?
+-> Explain your famework ?
+-> Find the X-path under flipkart CEO , after refreshing the page it should get work.
+-> Write a programe to navigate into the Amazon tab if it is present in the Multiple Tab.
+-> find all the Links of Iphone 14 add of the flipkart Page & the header of all the add should get display.
+--------------------------------------------------------------------------------------------------------------
+CGI : 11th August 2023
+
+-> Framework explanation
+-> How to run failed TCs in framework
+-> Interchange values of two string
+-> How to use overloaded constructor in framework
+-> Api 500 series 
+-> Automation of frames
+-> How to change frames
+-> Singleton concept 
+-> How to work with tables in Selenium
+-> Hashmap 
+-> Xpath finding element from reference node
+-> Manual all scenarios for validation for a search query
+-> Constructor overriding use in Framework
+-> Thorw , Throws & Throwable differences !
+-> What exceptions (Java and selenium) did you face in testing and how you resolved them
+-> Checked and unchecked exceptions
+-> Git and Jenkins (ci/cd)
+-> Read and write data through Excel in selenium
+-> Collections concept
+-> Why are strings not mutable 
+-> Hashmap and hashset
+-------------------------------------------------------------------------------------------------------------------
+Interview Questions on Java Collections :
+
+
+-> Write a Program to check if an element is part of a collection or not.
+-> Write a program to reverse an ArrayList.
+-> Write a program to convert ArrayList to LinkedList and vice versa.
+-> How to get the highest and lowest values of a List?
+-> How to make a collection read-only?
+-> What is the difference between Iterator & Enumerator?
+-> Compare different Collection classes with respect to their properties.
+------------------------------------------------------------------------------------
+List
+-> What are the differences between List & Set?
+-> What are the differences between Array and ArrayList?
+-> What are the differences between Arraylist & LinkedlList?
+--------------------------------------------------------------------------------------
+Set
+-> What are the differences between Set & Map?
+-> What are the differences between HashSet & TreeSet?
+--------------------------------------------------------------------------------------
+Map
+-> What are the differences between HashSet & HashMap?
+-> What are the differences between HashMap & TreeMap?
+---------------------------------------------------------------------------------------------
+ SDET JAVA:
+1. What is the difference between JDK, JRE, and JVM?
+2. What are the different types of constructors in Java? And How to overload Constructor?
+3. What is the static keyword? How it can be used?
+4. What is this final keyword? how I can be used?
+5. What is the difference between method overloading and method overriding?
+6. Could you explain IS-A and HAS-A relationship?
+7. Explain this and super keyword
+8. How to check instance of Specified type? Explain with example
+9. What is a package in Java? What are different types of packages? Can we create a custom package?
+10. What is run time polymorphism in Java?
+11. What is the difference between static and dynamic binding in java?
+------------------------------------------------------------------------------------------------
+1. How to make class read-only explain briefly?
+2. What is Object Class explain?
+3. What is the difference between Mutable and Immutable Object? Explain String and StringBuilder in the same context
+4. What are the different types of exceptions in java?
+5. Can we have a Single Catch Block and Multiple Try block?
+6. Can we have try block without catch block? How do you handle multiple exception with single try block?
+7. Tell me the difference between == and .equals
+8. Tell me some helpful string methods in Java
+9. Why should avoid static methods in Java? Explain
+10. How can I use the thread concept in Java, Explain two types?
+-----------------------------------------------------------------------------------------------------
+1. How can we achieve Pass by value and pass by reference in Java?
+2. Explain Different types of interfaces in the Collection framework
+3. What is the difference between Array List and LinkedList? Which is better explain?
+4. What is the difference between List and Set?
+5. What is the difference between HashSet and HashMap?
+6. Explain Collection and Collections in Java?
+7. Explain the difference between Comparable and Comparator.
+8. Are Array and Array List are the same? If Not, How do we convert them to each other?
+9. What is Generic Class? Could you explain with a small snippet?
+10. How Sub Class is different from Inner Class?
+11. What is a singleton class? Explain with a small code snippet
+12. Explain Thread life cycle briefly? What are some commonly used methods?
+13. What is garbage collection? How to force Garbage Collection?
+------------------------------------------------------------------------------------------------------------
+1. What is Typecasting explain with small code snippet?
+2. Write a program to reverse a string  without using string.reverse() method
+3. Write a program to calculate the occurrences of each character in the string
+4. Write a program to check the magic number
+5. Write a program to check if two strings are an anagram
+6. Write a program to create a deadlock in java
+-------------------------------------------------------------------------------------------------------------
+1. Write a program to sort ArrayList using Comparable and Comparator
+2. I have arrayList like [Test1, Test2, Test3, Test4, Test5] Write a Program to replace the "Test2"
+   with string "ReplacedTest"
+3. Write a Java program to insert the specified element at the end of a linked list
+4. Write a program to perform Pairwise swap elements of a given linked list
+5. Check if two arrays have same number of items and values
+6. Write a Java Program to find the largest and smallest word in a string
+7. Java Program to Check if a Given Number is Perfect Square
+8. Write a Program to cover all major concepts of OOPs
+9. Write a program to find the length of the string without using string.length();
+-------------------------------------------------------------------------------------------------------------
+SELENIUM INTERVIEW QUESTIONS:
+
+1. State the major difference between “assert” and “verify” commands in Selenium.
+2. Explain the same-origin policy and how Selenium handles it?
+3. Explain the pause feature in Selenium IDE.
+4. With the help of code snippets, explain how we can create right-click and mouse hover actions in Selenium.
+5. Can we handle a windows-based pop-up in Selenium, and if not, then what are the alternatives?
+6. Can you capture a screenshot using Selenium? If yes, write a simple code to illustrate the same.
+7. Explain different types of framework and connection of Selenium with Robot Framework.
+8. Demonstrate usage of Selenium through a test application.
+9. Explain basic steps of Selenium testing and its widely used commands via a practical application.
+10. What do you understand about the Page Object Model in the context of Selenium? What are its advantages?
+11. What is Jenkins and what are the benefits of using it with Selenium?
+12. How will you select a date from a datepicker in a webpage using Selenium for automated testing? Explain with a proper code.
+13. What do you understand about broken links? How can you detect broken links in Selenium? Explain properly with code.
+14. What do you understand about window handle in the context of automated testing? How can you handle multiple windows in Selenium?
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Selenium Interview Questions for Freshers:
+
+1. What is Selenium?
+2. What are the Selenium suite components?
+3. What are the advantages of using Selenium as an automation tool?
+4. What are the disadvantages of using Selenium as a testing tool?
+5. What is automation testing, and what are its advantages?
+6. Why should Selenium be selected as a testing tool for web applications or systems?
+7. What is Selenese? Explain different types of Selenium commands.
+8. What is meant by a locator and name a few different types of locators present in Selenium.
+9. What is exception test in Selenium?
+10. What is XPath in Selenium? Explain XPath Absolute and XPath Relative.
+11. In Xpath, what is the difference between "/" and "//"?
+12. What is the difference between the commands "type" and "typeAndWait" in the context of Selenium?
+13. Differentiate between findElement() and findElements() in the context of Selenium with proper examples.
+14. In Selenium, how will you wait until a web page has been loaded completely?
+15. What is Selenium WebDriver?
+16. Is Selenium WebDriver a library?
+17. Is Selenium WebDriver an interface or a class?
+18. What are the different types of WebDriver Application Programming Interfaces in Selenium?
+19. What programming languages does Selenium WebDiver support?
+20. What open-source frameworks does Selenium WebDriver support?
+21. What is WebDriver's super interface?
+22. Explain the following line of code.
+23. Is it necessary to use Selenium Server to run Selenium WebDriver scripts?
+24. What will happen if I execute this command? driver.get(“www.interviewbit.
+25. What is an alternative option to driver.get() method to open an URL in Selenium Web Driver?
+26. What is the difference between driver.get() and driver.navigate.to(“url”)?
+27. What are the differences between the methods driver.close() and driver.quit()?
+28. What are some cases that Selenium WebDriver cannot automate?
+29. In Selenium WebDriver, what is an Object Repository?
+------------------------------------------------------------------------------------------------------------------
+Selenium WebDriver Interview Questions:
+
+1. In Selenium WebDriver, how do you handle Ajax calls?
+2. How to create an Object Repository in your project?
+3. What are the different types of waits that WebDriver supports?
+4. Mention the several types of navigation commands that can be used?
+5. How does a Selenium WebDriver interact with the browser?
+6. What are Selenium WebDriver Listeners?
+7. What is the implementation of WebDriver Listeners?
+8. What kinds of Selenium WebDriver exceptions have you run into?
+9. Which implementation of WebDriver promises to be the fastest?
+10. At a bare minimum, how many parameters do selenium commands have?
+11. As seen below, we establish a WebDriver reference variable called 'driver.'
+    What exactly is the purpose of proceeding in this manner?
+12. What is the Selenium WebDriver Architecture?
+13. In Selenium WebDriver, how do you use the Recovery Scenario?
+14. How can I use WebDriver to mouse hover over a web element?
+15. In Selenium WebDriver, how do I push the ENTER key on a text box?
+16. How do I use Selenium WebDriver for submitting a form?
+17. How can I use Selenium WebDriver for clicking on a hyperlink?
+18. How do I retrieve the value of an attribute in Selenium WebDriver?
+19. What is the best way to acquire the textual matter of a web element?
+20. How can I use Selenium WebDriver to clear the text in a text box?
+21. How do I use Selenium WebDriver to enter text into a text box?
+22. In Selenium WebDriver, how do you take a screenshot?
+23. What is the best way to deal with StaleElementReferenceException?
+------------------------------------------------------------------------------------------------------
+Selenium Tricky Interview Questions
+1. Why is it important to use TestNG when working with Selenium RC?
+2. Can Selenium be used to test responsive web design?
+3. What API should be used to test databases when using Selenium WebDriver for database testing?
+4. What are assertions in Selenium?
+5. What is the Silk Test Tool?
+6. What is the purpose of the testing.xml file ?
+7. What are the areas where Selenium can improve its features?
+8. Can you explain what Page Factory is?
+9. What is the Actions class?
+10. What are the steps for troubleshooting tests using Selenium IDE?
+11. What steps can be taken to resolve an issue where a Selenium script only works properly on 
+    Google Chrome but not Internet Explorer?
+12. Is it possible to open pop-up windows with Selenium?
+13. Can selenium be used to launch web browsers?
+14. Is it possible to use only perform() without build()?
+15. What is StaleElementReferenceException? When does this occur? And how to overcome such exceptions?
+16. In a Selenium script, what happens if you use both implicit and explicit wait?
+17. In a Selenium Script, what happens if you use both Thread.Sleep and WebDriver Waits?
+18. How can I type text into the text box without using the sendKeys() function?
+19. How does Selenium WebDriver handle hidden elements?
+20. What are test design techniques? Explain BVA and ECP with some examples.
+----------------------------------------------------------------------------------------------------------------
