@@ -1,0 +1,128 @@
+
+hi guys in this video we are going to - discuss most important managerial round
+questions and their solutions this is -same for different it companies this is - not for a specific company okay
+
+so our first question is what you have
+What have you done to optimize or improve your workspace?
+ done to optimize or improve your
+
+workspace so you can say like that that
+in our code base one function was
+
+hitting database again and again which
+
+was making our system slow so what we
+
+did was we used hash map to store the
+
+results and used to hit database only if
+
+the value is
+
+not present in hash map this way we
+
+optimize our workspace
+
+so the next question is what are your
+What are your strength and weakness?
+
+strength and weakness -for i know that for strength part
+
+everybody can say something but for - weakness you have to say in such a way -that it seems as your strength for
+
+weakness you can say that i used to take
+little bit more time in understanding - the requirement specification i used to
+ask lot of why and how - but this eventually helps me in finding
+optimized solution at the end- 
+this will make your interviewer very- happy that this person is very much
+concerned about requirement specification
+
+Have you been in any conflict
+
+now the next question is have you been
+
+ever in any conflict how did you resolve it
+
+my suggestion to all of you is that you - have to say yes even if you did not face
+
+it will put a positive impact okay- you can say like that in my team a task
+was given to one of my team member to update
+
+what is the status of different team members at the end of the day
+after asking from them
+
+but - he missed few days
+unfortunately and that created a conflict
+so what i did was i called a meeting
+with all the members
+and understood his problem
+and then we decided that we will write
+our part in a blank sheet and send it to him
+after that he will consolidate everything
+and finally draft an email
+
+What you did when you commit any mistake
+now the next question is what you did
+
+when you commit any mistake now my
+
+suggestion is to say yes even if you do not have done any mistake
+first you can say like that first i
+
+called my team lead and just accepted my
+
+mistake this shows your flexibility
+
+then you can say that i explained him
+
+the effects of this mistake
+
+you can say that then i explained him
+
+how to resolve it and then documented
+
+that mistake
+
+so that nobody commit that mistake again
+
+this question will put you in front seat
+How did you help your team member
+
+now the next question they can ask you
+
+like that how did you help your team
+
+member if he is not performing up to the
+
+mark you can say like that
+first i have scheduled a meeting with him
+
+tried to understand his problem
+
+i found that he was struggling in
+
+springboot then i suggested him few
+
+links of youtube videos
+then i used to sit with him for 20
+
+minutes after office hours to understand
+
+his doubts
+finally he improved and got 4 rating in
+final appraisal
+
+this shows your leadership quality
+Latest recognition from your manager
+
+now the next question is have you got
+any latest recognition from your manager
+even if you have not you have to say yes
+you can say like that when most of
+senior members were absent i handled the
+client for one week
+you can say that i did my best and got
+best appraisal from my manager
+this will shows you that you care for a manager and this is all they want
+
+so that's all from my guys
